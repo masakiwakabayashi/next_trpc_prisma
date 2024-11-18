@@ -9,7 +9,7 @@ export default function Home() {
       <GreetingClient name="Client 2" />
 
       {/* SSR Component からの tRPC 問い合わせ. */}
-      <GreetingServer name="Server 1"/>
+      {/* <GreetingServer name="Server 1"/> */}
     </main>
   )
 }
